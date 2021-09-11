@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="https://kit.fontawesome.com/2a65aea4a8.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="theme-color" content="#ff6347">
+  <title>WebofVivek</title>
+</head>
+
+<body>
+
+  <!-- nav-bar -->
+  <div id="nav-bar">
+    <img id="fav" src="favicon.png" alt="">
+    <h2 id="menu" onclick="openmenu()">Menu</h2>
+    <ul id="nav">
+      <h2 id="close" onclick="closemenu()">Close</h2>
+      <li><a onclick="closemenu()" href="#content">Home</a></li>
+      <li><a onclick="closemenu()" href="#about">About</a></li>
+      <li><a onclick="closemenu()" href="#project">Projects</a></li>
+      <li><a onclick="closemenu()" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+
+
+
+  <!-- about me -->
+  <div class="uni-padding" id="content">
+    <img src="myimg2.png" alt="">
+    <div id="about-me">
+      <h1>Hi, I'm <span class="primary-color">Vivek</span></h1>
+      <h2>Frontend Developer & UI Designer</h2>
+      <h4>Welcome to my web</h4>
+    </div>
+  </div>
+
+  <!-- about section -->
+  <div id="about" class="uni-padding">
+
+    <h1 class="heading">Something About Me</h1>
+    <div class="container">
+      <div class="card">
+        <i class="fas fa-laptop-code"></i>
+        <h2 class="primary-color">Specialization</h2>
+        <p> I am specialized in front-end development, animations and
+          micro-interactions.
+        </p>
+      </div>
+      <div class="card">
+        <i class="fas fa-mobile-alt"></i>
+        <h2 class="primary-color">Responsivness</h2>
+        <p>
+          I am always keeping an eye on performance to make sure the
+          overall feeling stays the same on every device, mobiles
+          included.
+        </p>
+      </div>
+      <div class="card">
+        <i class="fas fa-palette"></i>
+        <h2 class="primary-color">Accurate Color</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad dolorem dolorum praesentium. Iure exercitationem
+          et ipsam.</p>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- projects -->
+
+
+
+  <!-- contact me -->
+  <div id="contact">
+
+    <h1 class="heading">Contact Me</h1>
+
+    <div id="contactform" class="uni-padding">
+
+
+      <div class="contact-container">
+
+
+
+
+        <div class="address">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h2>Location</h2>
+            <p>Talvel , Maharastra India </p>
+          </div>
+        </div>
+
+        <div class="address">
+          <i class="fas fa-at"></i>
+          <div>
+            <h2>E-mail</h2>
+            <p>vivekmilindpatil@gmail.com</p>
+          </div>
+        </div>
+
+
+
+        <div class="address">
+          <i class="fas fa-phone-alt"></i>
+          <div>
+            <h2>Phone No:</h2>
+            <p>+91-9373259907</p>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <form action="" method="get">
+        <div id="nameemail">
+          <input type="text" placeholder="Your Full Name" required>
+          <input type="email" name="" placeholder="Your E-mail" id="" required>
+        </div>
+        <input type="text" name="" id="subject" placeholder="Subject" required>
+
+        <label id="messlabel" for="text">Message</label>
+        <textarea name="text" id="text" cols="30" rows="10" required>
+
+         </textarea>
+        <input type="submit" id="submit" value="Send">
+      </form>
+    </div>
+
+  </div>
+
+  <!-- social media -->
+  <footer class="uni-padding" id="footer">
+
+    <div id="icons">
+
+      <a target="_blank" href="https://www.facebook.com/profile.php" class="fab fa-facebook"></a>
+      <a href="" class="fab fa-twitter"></a>
+      <a target="_blank" href="https://www.instagram.com/its_vivek_patil_vm/" class="fab fa-instagram"></a>
+      <a href="" class="fab fa-telegram"></a>
+    </div>
+
+    <div id="links">
+      <a href="#content">Home</a>
+      <a href="#about"> About</a>
+      <a href="#projects"> Projects</a>
+      <a href="#contact"> Contact</a>
+
+
+    </div>
+
+    <div id="copyright">
+      &copy; Vivek Patil
+    </div>
+
+
+
+
+
+
+  </footer>
+
+
+
+
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script>
+  function openmenu() {
+    document.getElementById("nav").style.top = "0px";
+  }
+  function closemenu() {
+    document.getElementById("nav").style.top = "-400px";
+  }
+
+
+
+
+
+</script>
+
+</html>
