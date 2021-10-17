@@ -154,7 +154,7 @@ img{
 .stats{
     display: grid;
     place-items:center;
-     max-width:100vw;
+     max-width:400px;
     overflow:hidden;
 }
 /* projects */
