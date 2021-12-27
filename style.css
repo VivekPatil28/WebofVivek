@@ -37,7 +37,7 @@
     text-underline-offset: 5px;
 }
 body{
-    background-color: #ebebeb;
+    background-color: #c7c7c7;
 }
 
 /* nav-bar */
@@ -66,17 +66,13 @@ body{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.712);
     font-size: 20px;
-
-    
 }
 #nav-bar ul li a:hover{
-
     color: rgb(255, 255, 255);
 
 }
 
 #fav{
-
     padding: 5px 0;
     letter-spacing: 4px;
     color: white;
@@ -84,7 +80,6 @@ body{
     font-family: logo;
 }
 img{
- 
     background-color: transparent;
 }
 
@@ -96,11 +91,10 @@ img{
    
 }
 
-#content img{
+#imgb{
     border: 8px solid tomato;
     height: 350px;
     border-radius: 50%;
-    
   }
 #about-me{
     text-align: center;
@@ -306,6 +300,7 @@ footer{
    
 }
 .elfsight-app-eb45c8af-5041-48bb-894f-cd7f3f4a5f77{
+    margin-left: -100px;
     z-index: 1;
 }
 #cust{
@@ -386,6 +381,7 @@ margin: 10px 0;
     .uni-padding{
         padding: 0 1%;
     }
+
 }
 @media  (max-width:768px) {
     #preloader{
@@ -416,7 +412,7 @@ align-items: center;
     flex-flow: column;
 }
 
-    #content img{
+    #imgb{
         height: 250px;
         border: 5px solid tomato;
 
@@ -472,9 +468,6 @@ align-items: center;
         border-radius: 5px;
         justify-content: center;
         transition:.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) ;
-     
-
-
     }
     #nav-bar ul li{
         margin: 10px;
@@ -484,7 +477,8 @@ align-items: center;
         flex-flow: column;
     }
     #fav{
-        font-size: 30px;
+        font-size: 35px;
+        padding: 10px 0;
     }
    #menu,#close{
        font-size: 20px;
@@ -513,6 +507,7 @@ align-items: center;
         margin: 10px auto;
     }
     #nav-bar{
+      
         background-color: rgba(255, 99, 71, 0.918);
         padding: 0 20px;
     }
