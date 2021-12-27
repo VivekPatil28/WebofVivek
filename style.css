@@ -9,9 +9,11 @@
     font-family:sans-serif;
     scroll-behavior:smooth;
     user-select: none;
+    max-width: 100vw;
 }
 #preloader{
     background: rgba(196, 196, 196, 0.425) url(pl.gif) no-repeat center center;
+    background-size: 400px;
     height: 100vh;
     width: 100%;
     z-index: 100;
@@ -74,6 +76,7 @@ body{
 }
 
 #fav{
+
     padding: 5px 0;
     letter-spacing: 4px;
     color: white;
@@ -302,6 +305,9 @@ footer{
     flex-flow: column;
    
 }
+.elfsight-app-eb45c8af-5041-48bb-894f-cd7f3f4a5f77{
+    z-index: 1;
+}
 #cust{
     text-align: center;
     height: 0px;
@@ -392,6 +398,9 @@ margin: 10px 0;
         display: block;
         color: white;
     }
+    #preloader{
+        background-size: 200px;
+    }
 
     #close{
         cursor: pointer;
@@ -474,6 +483,8 @@ align-items: center;
         flex-flow: column;
     }
     #fav{
+        padding: 0 0;
+        margin-top: 5px;
         height: 60px;
     }
    
