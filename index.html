@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<div id="preloader"></div>
+  <div id="preloader"></div>
 
   <!-- nav-bar -->
   <nav id="nav-bar">
@@ -41,7 +41,7 @@
     <input type="color" value="#f56565" id="co">
     <br>
     <button id="custcl" onclick="closem()">Close</button>
-   </div>
+  </div>
   <!-- about me -->
   <div class="uni-padding" id="content">
     <img id="imgb" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="1000" data-aos-easing="ease-in-out"
@@ -57,7 +57,7 @@
 
 
   <!-- about section -->
-  <div class="uni-padding about"  id="about">
+  <div class="uni-padding about" id="about">
 
     <h1 data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out"
       data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center" class="heading">Something
@@ -85,7 +85,8 @@
         data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center" class="card" id="c3">
         <i id="l3" class="fas fa-palette"></i>
         <h2 id="t3" class="primary-color">Accurate Color</h2>
-        <p class="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad dolorem dolorum praesentium. Iure exercitationem
+        <p class="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad dolorem dolorum praesentium. Iure
+          exercitationem
           et ipsam.</p>
       </div>
     </div>
@@ -94,110 +95,148 @@
 
   <!-- projects -->
 
-  <!-- chat -->
-  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-  <div class="elfsight-app-eb45c8af-5041-48bb-894f-cd7f3f4a5f77"></div>
-
-  <!-- contact me -->
-  <div id="contact">
-
+  <div id="project">
     <h1 data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out"
-    data-aos-anchor-placement="top-center" class="heading">Contact Me
+      data-aos-anchor-placement="top-center" class="heading">My Projects
     </h1>
 
-    <div id="contactform" class="uni-padding">
+    <div id="container" class="uni-padding">
+      <a target="_blank" href="https://vivekpatil28.github.io/SpendRatanTatasfortune/">
+        <img src="Ratan-tata-sirpng.png" alt="">
+        <div class="abt">
+          <h4>Spend Ratan Tata's Fortune</h4>
+          <h5>Lorem ipsum dolor sit amet.</h5>
+
+        </div>
+      </a>
+      <a target="_blank" href="https://vivekpatil28.github.io/Tic-Tac-Toe/">
+        <img src="tictactoe.jpg" alt="">
+        <div class="abt">
+          <h4>Tic-Tac-Toe</h4>
+          <h5>Lorem ipsum dolor sit amet.</h5>
+
+        </div>
+      </a>
+
+      <a target="_blank" href="https://vivekpatil28.github.io/ToDoList/">
+        <img src="todo.jpg" alt="">
+        <div class="abt">
+          <h4>To-Do List</h4>
+          <h5>Lorem ipsum dolor sit amet.</h5>
+
+        </div>
+      </a>
 
 
-      <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out"
-      data-aos-anchor-placement="top-center" id="cont" class="contact-container">
-      
-      
+
+    </div>
+
+    <!-- chat -->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-eb45c8af-5041-48bb-894f-cd7f3f4a5f77"></div>
+
+    <!-- contact me -->
+
+    <div id="contact">
+
+      <h1 data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out"
+        data-aos-anchor-placement="top-center" class="heading">Contact Me
+      </h1>
+
+      <div id="contactform" class="uni-padding">
 
 
-        <div class="address">
-          <i class="fas fa-map-marker-alt"></i>
-          <div>
-            <h2>Location</h2>
-            <p>Talvel , Maharastra India </p>
+        <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out"
+          data-aos-anchor-placement="top-center" id="cont" class="contact-container">
+
+
+
+
+          <div class="address">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h2>Location</h2>
+              <p>Talvel , Maharastra India </p>
+            </div>
+          </div>
+
+          <div class="address">
+            <i class="fas fa-at"></i>
+            <div>
+              <h2>E-mail</h2>
+              <p>vivekmilindpatil@gmail.com</p>
+            </div>
+          </div>
+
+
+
+          <div class="address">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <h2>Phone No:</h2>
+              <p>+91-9373259907</p>
+            </div>
+
+
           </div>
         </div>
 
-        <div class="address">
-          <i class="fas fa-at"></i>
-          <div>
-            <h2>E-mail</h2>
-            <p>vivekmilindpatil@gmail.com</p>
+
+
+
+
+
+
+
+
+
+        <form action="https://formspree.io/f/xdobebdw" method="POST" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" id="con"
+          data-aos-anchor-placement="top-center">
+          <div id="nameemail">
+            <input type="text" name="name" placeholder="Your Full Name" required>
+            <input type="email" name="_replyto" placeholder="Your E-mail" id="" required>
           </div>
-        </div>
+          <input type="text" name="subject" id="subject" placeholder="Subject" required>
+
+          <label id="messlabel" for="message">Message</label>
+          <textarea name="message" id="text" cols="30" rows="10" required>
+
+         </textarea>
+          <button type="submit" id="submit" >Send</button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- social media -->
+    <footer class="uni-padding" id="footer">
+
+      <div id="icons">
+        <a id="i1" target="_blank" href="https://www.facebook.com/profile.php" class="fab fa-facebook"></a>
+        <a id="i2" href="" class="fab fa-twitter"></a>
+        <a id="i3" target="_blank" href="https://www.instagram.com/its_vivek_patil_vm/"
+          class="fab fa-instagram-square"></a>
+        <a id="i4" href="" class="fab fa-telegram"></a>
+      </div>
+
+      <div id="links">
+        <a href="#content">Home</a>
+        <a href="#about"> About</a>
+        <a href="#project"> Projects</a>
+        <a href="#contact"> Contact</a>
 
 
+      </div>
 
-        <div class="address">
-          <i class="fas fa-phone-alt"></i>
-          <div>
-            <h2>Phone No:</h2>
-            <p>+91-9373259907</p>
-          </div>
-
-
-        </div>
+      <div id="copyright">
+        Created By &copy; Vivek Patil
       </div>
 
 
 
 
 
-
-
-
-
-
-      <form data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out"
-        id="con"  data-aos-anchor-placement="top-center" action="" method="get">
-        <div id="nameemail">
-          <input type="text" placeholder="Your Full Name" required>
-          <input type="email" name="" placeholder="Your E-mail" id="" required>
-        </div>
-        <input type="text" name="" id="subject" placeholder="Subject" required>
-
-        <label id="messlabel" for="text">Message</label>
-        <textarea name="text" id="text" cols="30" rows="10" required>
-
-         </textarea>
-        <input type="submit" id="submit" value="Send">
-      </form>
-    </div>
-
-  </div>
-
-  <!-- social media -->
-  <footer class="uni-padding" id="footer">
-
-    <div id="icons">
-      <a id="i1" target="_blank" href="https://www.facebook.com/profile.php" class="fab fa-facebook"></a>
-      <a id="i2" href="" class="fab fa-twitter"></a>
-      <a id="i3" target="_blank" href="https://www.instagram.com/its_vivek_patil_vm/" class="fab fa-instagram-square"></a>
-      <a id="i4" href="" class="fab fa-telegram"></a>
-    </div>
-
-    <div id="links">
-      <a href="#content">Home</a>
-      <a href="#about"> About</a>
-      <a href="#projects"> Projects</a>
-      <a href="#contact"> Contact</a>
-
-
-    </div>
-
-    <div id="copyright">
-      &copy; Vivek Patil
-    </div>
-
-
-
-
-
-  </footer>
+    </footer>
 
 
 
@@ -215,61 +254,61 @@
   function closemenu() {
     document.getElementById("nav").style.top = "-400px";
   }
-function opencust() {
-  closemenu();
-  document.getElementById("cust").style.height="35vh";
+  function opencust() {
+    closemenu();
+    document.getElementById("cust").style.height = "35vh";
 
-}
-function closem() {
-  console.log("Trigered");
-  document.getElementById("cust").style.height="0px";
-}
+  }
+  function closem() {
+    console.log("Trigered");
+    document.getElementById("cust").style.height = "0px";
+  }
   const body = document.querySelector("body");
   const input = document.getElementById("colorPicker");
-  
+
   input.addEventListener("input", setColor);
-      setColor();
-      
-      function setColor() {
-        body.style.backgroundColor = input.value;
-        document.getElementById("fav").style.color=input.value;
-      }
+  setColor();
 
-      const nav = document.querySelector("nav");
-      const op = document.getElementById("co");
-      op.addEventListener("op",color);
+  function setColor() {
+    body.style.backgroundColor = input.value;
+    document.getElementById("fav").style.color = input.value;
+  }
 
-    color();
-      function color() {
-        setInterval(() => {
+  const nav = document.querySelector("nav");
+  const op = document.getElementById("co");
+  op.addEventListener("op", color);
 
-          nav.style.backgroundColor = op.value;
-          document.getElementById("imgb").style.borderColor=op.value;
-          document.getElementById("ncolor").style.color=op.value;
-          document.getElementById("cont").style.borderColor=op.value;
-          document.getElementById("con").style.borderColor=op.value;
+  color();
+  function color() {
+    setInterval(() => {
 
-          document.getElementById("c1").style.borderColor=op.value;
-          document.getElementById("c2").style.borderColor=op.value;
-          document.getElementById("c3").style.borderColor=op.value;
+      nav.style.backgroundColor = op.value;
+      document.getElementById("imgb").style.borderColor = op.value;
+      document.getElementById("ncolor").style.color = op.value;
+      document.getElementById("cont").style.borderColor = op.value;
+      document.getElementById("con").style.borderColor = op.value;
 
-          document.getElementById("t1").style.color=op.value;
-          document.getElementById("t2").style.color=op.value;
-          document.getElementById("t3").style.color=op.value;
+      document.getElementById("c1").style.borderColor = op.value;
+      document.getElementById("c2").style.borderColor = op.value;
+      document.getElementById("c3").style.borderColor = op.value;
 
-          document.getElementById("l1").style.color=op.value;
-          document.getElementById("l2").style.color=op.value;
-          document.getElementById("l3").style.color=op.value;
-          
-          document.getElementById("submit").style.borderColor=op.value;
-          document.getElementById("submit").style.borderColor=op.value;
-        }, 1);
-      }
+      document.getElementById("t1").style.color = op.value;
+      document.getElementById("t2").style.color = op.value;
+      document.getElementById("t3").style.color = op.value;
 
-      // var loader =document.getElementById("preloader");
-      window.addEventListener("load",function () {
-        document.getElementById("preloader").style.display="none";
-      });
+      document.getElementById("l1").style.color = op.value;
+      document.getElementById("l2").style.color = op.value;
+      document.getElementById("l3").style.color = op.value;
+
+      document.getElementById("submit").style.borderColor = op.value;
+      document.getElementById("submit").style.borderColor = op.value;
+    }, 1);
+  }
+
+  // var loader =document.getElementById("preloader");
+  window.addEventListener("load", function () {
+    document.getElementById("preloader").style.display = "none";
+  });
 
 
 </script>
